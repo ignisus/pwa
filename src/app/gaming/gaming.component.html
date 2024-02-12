@@ -1,0 +1,85 @@
+<section class="hidePC">
+  <div class="search-container">
+    <div class="icon">
+      <svg viewBox="0 -0.5 25 25">
+        <use xlink:href="./assets/images/icons/header.svg#search" />
+      </svg>
+      <input type="text" placeholder="">
+    </div>
+    <h3>
+      <b>{{ "header.gaming" | translate }}</b>
+    </h3>
+  </div>
+</section>
+<section class="content">
+  <div class="filter">
+    <select class="button" [(ngModel)]="selectedSystem" (change)="applyFilters()">
+      <option value="" disabled selected>{{ "gaming.0.systems" | translate }}:</option>
+      <option value="">{{ "gaming.0.all" | translate }}</option>
+      <option value="linux">Linux</option>
+      <option value="windows">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="wine">WineHQ</option>
+      <option value="web">Web</option>
+    </select>
+    <select class="button" [(ngModel)]="selectedGenre" (change)="applyFilters()">
+      <option value="" disabled selected>{{ "gaming.0.genres" | translate }}:</option>
+      <option value="">{{ "gaming.0.all" | translate }}</option>
+      <option value="build">{{ "gaming.0.build" | translate }}</option>
+      <option value="fight">{{ "gaming.0.fight" | translate }}</option>
+      <option value="simulator">{{ "gaming.0.simulator" | translate }}</option>
+      <option value="retro">{{ "gaming.0.retro" | translate }}</option>
+      <option value="puzzle">{{ "gaming.0.puzzle" | translate }}</option>
+    </select>
+    <select class="button" [(ngModel)]="selectedSort" (change)="onSortChange()">
+      <option value="" disabled selected>{{ "gaming.0.sort" | translate }}:</option>
+      <option value="mostPlayed">{{ "gaming.0.mostplayed" | translate }}</option>
+      <option value="lessPlayed">{{ "gaming.0.lessplayed" | translate }}</option>
+    </select>
+  </div>
+</section>
+<section class="content">
+  <div class="gallery" [ngClass]="galleryClass">
+    <a class="hover" routerLink="/create">
+      <div class="img-container">
+        <img src="./assets/images/games/add.webp">
+      </div>
+      <div class="text-container">
+        <span class="game-name">{{ "gaming.1.add" | translate }} +</span>
+      </div>
+    </a>
+    <a class="hover" [href]="game.url" *ngFor="let game of filteredGames" [target]="game.target">
+      <a [routerLink]="game.goto">
+        <div class="img-container">
+          <img [lazyLoad]="game.icon" [alt]="game.name">
+        </div>
+        <div class="text-container">
+          <span class="game-name">{{ game.name }}&nbsp;</span>
+          <span>
+            <svg *ngIf="game.platforms.linux">
+              <use xlink:href="./assets/images/icons/linux.svg#icons" />
+            </svg>
+            <svg *ngIf="game.platforms.windows">
+              <use xlink:href="./assets/images/icons/windows.svg#icons" />
+            </svg>
+            <svg *ngIf="game.platforms.mac">
+              <use xlink:href="./assets/images/icons/apple.svg#icons" />
+            </svg>
+            <svg *ngIf="game.platforms.android">
+              <use xlink:href="./assets/images/icons/android.svg#icons" />
+            </svg>
+            <svg *ngIf="game.platforms.wine">
+              <use xlink:href="./assets/images/icons/winehq.svg#icons" />
+            </svg>
+            <svg *ngIf="game.platforms.web">
+              <use xlink:href="./assets/images/icons/firefox.svg#icons" />
+            </svg>
+            <svg *ngIf="game.platforms.web">
+              <use xlink:href="./assets/images/icons/chromium.svg#icons" />
+            </svg>
+          </span>
+        </div>
+      </a>
+    </a>
+  </div>
+</section>

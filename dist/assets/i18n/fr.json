@@ -1,0 +1,128 @@
+{
+  "header": {
+    "create": "Créer",
+    "forum": "Forum",
+    "gaming": "Jeux",
+    "hosting": "Hébergement",
+    "settings": "Paramètres",
+    "theme": "Sujet",
+    "language": "Langue",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "profile": "Profil"
+  },
+  "policy": {
+    "title": "Politique de confidentialité",
+    "date": "Date d'effet",
+    "description": "Chez Ignisus, nous sommes fiers d'être une plateforme open source, dédiée à maintenir la transparence et à encourager une communauté collaborative. Notre code, accessible et modifiable, reflète notre engagement envers l'innovation ouverte et l'amélioration continue.",
+    "1": "Informations Collectées",
+    "account": "Comptes",
+    "accountText": "Ils sont facultatifs et demandent des informations d'identification de base telles qu'une adresse e-mail et un mot de passe.",
+    "cookies": "Cookies",
+    "cookiesText": "Nous stockons localement certaines données telles que les paramètres, le thème, la langue...",
+    "2": "Utilisation des Informations",
+    "2text": "Nous croyons fermement au respect de la vie privée de nos utilisateurs. Notre objectif n'est pas de tirer profit de votre vie privée. Au lieu de cela, nous nous efforçons de fournir un service sécurisé et fiable, où la protection des données personnelles est une priorité. Nous ne collectons pas plus d'informations que nécessaire, et ce que nous collectons de manière anonyme, nous le faisons dans le seul but d'améliorer l'expérience utilisateur et de maintenir le bon fonctionnement de la plateforme.",
+    "3": "Partage d'Informations avec des Tiers",
+    "3text": "Les cookies tiers et le partage d'informations sont totalement bloqués. Cette approche de respect et de transparence est au cœur de notre mission. Les utilisateurs évoluent dans un environnement où leur vie privée est respectée et leur voix est valorisée. Ensemble, nous construisons non seulement une plateforme, mais une communauté basée sur la confiance et la collaboration ouverte.",
+    "4": "Sécurité des Données",
+    "4text": "Nous comprenons l'importance de maintenir vos données sécurisées et protégées. C'est pourquoi nous avons mis en place des systèmes de cryptage avancés pour protéger chaque morceau d'information que vous nous confiez. Notre priorité est de nous assurer que vos données restent inaccessibles aux tiers non autorisés.",
+    "4text2": "En cas d'attaque informatique improbable, nous voulons que vous sachiez que nous prenons des mesures proactives pour minimiser tout risque. Nous ne stockons pas de données sensibles qui pourraient compromettre votre sécurité ou votre vie privée. Chaque décision que nous prenons dans la gestion des données est guidée par le principe de précaution et de protection.",
+    "5": "Droits des Utilisateurs",
+    "5text": "Nous valorisons la liberté et l'autonomie de nos utilisateurs. Nous croyons fermement à fournir un espace où vous pouvez vous exprimer, partager et collaborer librement. Cependant, avec cette liberté vient également une responsabilité importante.",
+    "5text2": "En tant qu'utilisateur de notre plateforme, vous avez le droit d'utiliser nos services selon vos intérêts et besoins, tout en respectant les lois de votre pays. Vous êtes libre d'explorer, d'interagir et de contribuer à notre communauté open source, mais il est crucial de se rappeler que vous êtes entièrement responsable de vos actions et de tout contenu que vous partagez.",
+    "5text3": "Notre plateforme agit comme un facilitateur pour l'expression et l'échange d'idées, mais nous n'assumons aucune responsabilité pour les activités individuelles de nos utilisateurs. Chaque membre de notre communauté est responsable de s'assurer que ses actions et contributions respectent les lois et réglementations applicables.",
+    "6": "Changements à la Politique de Confidentialité",
+    "6text": "Si nous apportons des modifications à notre politique de confidentialité, nous vous en informerons via une fenêtre contextuelle la prochaine fois que vous accéderez à notre plateforme. Cela garantira que vous soyez informé des nouvelles conditions et que vous puissiez les examiner et les accepter. Vous tenir informé et obtenir votre consentement est une priorité pour nous.",
+    "7": "Contact"
+  },
+  "settings": [
+    {
+      "title": "Paramètres généraux"
+    },
+    {
+      "title": "Compte social"
+    },
+    {
+      "title": "Conditions générales",
+      "text1": "Code source",
+      "text2": "Politique de confidentialité"
+    }
+  ],
+  "main": [
+    {
+      "title": "La Communauté Ouverte",
+      "status": "Statut : En développement...",
+      "text": "Una plateforme sociale créée par et pour la communauté."
+    },
+    {
+      "title": "Construire une communauté",
+      "text1": "Notre communauté, qui se réunit principalement sur Signal, est un témoignage de ce concept."
+    },
+    {
+      "title": "Partager des expériences",
+      "text1": "Dans notre groupe Discord, nous organisons régulièrement des sessions de jeu et événements."
+    }
+  ],
+  "forum": [
+    {
+      "posts": "Publications",
+      "explore": "Explorer",
+      "following": "Suivre"
+    },
+    {
+      "myposts": "Mes publications"
+    }
+  ],
+  "create": [
+    {
+      "post": "Ajouter Publication",
+      "game": "Hausse Jeux",
+      "host": "Acheter Host"
+    }
+  ],
+  "gaming": [
+    {
+      "all": "Tout",
+      "systems": "Systèmes",
+      "genres": "Genres",
+      "build": "Construire",
+      "fight": "Combat",
+      "simulator": "Simulateur",
+      "puzzle": "Puzzle",
+      "retro": "Retro",
+      "sort": "Trier",
+      "mostplayed": "Le plus joué",
+      "lessplayed": "Moins joué"
+    },
+    {
+      "add": "Ajouter jeu"
+    }
+  ],
+  "hosting": [
+    {
+      "title": "Page Web + Hébergement à petit prix",
+      "text1": "Services de manière sûre et éthique propulsé par Ignisus",
+      "add": "Acheter Host"
+    },
+    {
+      "all": "Tous",
+      "services": "Services",
+      "jewelry": "Bijoux",
+      "clothing": "Vêtements",
+      "games": "Jeux",
+      "food": "Nourriture"
+    }
+  ],
+  "minecraft": [
+    {
+      "title": "Règles",
+      "text1": "Ne pas utiliser le compte d'une autre personne",
+      "text2": "Toute forme de triche est interdite",
+      "text3": "Les machines causant du lag seront supprimées",
+      "text4": "Ne pas dégrader les cartes"
+    },
+    {
+      "text1": "Actualités & événements sur"
+    }
+  ]
+}

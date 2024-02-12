@@ -1,0 +1,128 @@
+{
+  "header": {
+    "create": "Create",
+    "forum": "Forum",
+    "gaming": "Gaming",
+    "hosting": "Hosting",
+    "settings": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "login": "Login",
+    "signup": "Sign Up",
+    "profile": "Profile"
+  },
+  "policy": {
+    "title": "Privacy Policy",
+    "date": "Effective Date",
+    "description": "At Ignisus, we take pride in being an open-source platform, dedicated to maintaining transparency and fostering a collaborative community. Our accessible and modifiable code reflects our commitment to open innovation and continuous improvement.",
+    "1": "Information Collected",
+    "account": "Accounts",
+    "accountText": "These are optional, and basic identification data such as an email and password will be requested.",
+    "cookies": "Cookies",
+    "cookiesText": "We locally store some data such as settings, theme, language...",
+    "2": "Use of Information",
+    "2text": "We firmly believe in respecting the privacy of our users. Our goal is not to profit at the expense of your privacy. Instead, we strive to provide a secure and reliable service, where the protection of personal data is a priority. We do not collect more information than necessary, and what we collect anonymously is done solely to improve the user experience and maintain optimal platform operation.",
+    "3": "Sharing Information with Third Parties",
+    "3text": "Third-party cookies and sharing information are completely blocked. This approach of respect and transparency is the core of our mission. Users immerse themselves in an environment where their privacy is respected and their voice is valued. Together, we are building not only a platform but also a community based on trust and open collaboration.",
+    "4": "Data Security",
+    "4text": "We understand the importance of keeping your data safe and protected. That's why we have implemented advanced encryption systems to safeguard every piece of information you entrust to us. Our priority is to ensure that your data remains inaccessible to unauthorized third parties.",
+    "4text2": "In the unlikely event of a cyberattack, we want you to know that we take proactive measures to minimize any risk. We do not store sensitive data that could jeopardize your security or privacy. Every decision we make in data handling is guided by the principles of caution and protection.",
+    "5": "User Rights",
+    "5text": "We value the freedom and autonomy of our users. We firmly believe in providing a space where you can express yourself, share, and collaborate freely. However, with this freedom also comes significant responsibility.",
+    "5text2": "As a user of our platform, you have the right to use our services according to your interests and needs, always respecting the laws of your country. You are free to explore, interact, and contribute to our open-source community, but it is crucial to remember that you are entirely responsible for your actions and any content you share.",
+    "5text3": "Our platform acts as a facilitator for expression and idea exchange, but we do not assume responsibility for the individual activities of our users. Each member of our community is responsible for ensuring that their actions and contributions comply with applicable laws and regulations.",
+    "6": "Changes to the Privacy Policy",
+    "6text": "If we make changes to our privacy policy, we will inform you through a pop-up the next time you log in to our platform. This will ensure that you are aware of the new conditions and can review and accept them. Keeping you informed and ensuring your consent is a priority for us.",
+    "7": "Contact"
+  },
+  "settings": [
+    {
+      "title": "General settings"
+    },
+    {
+      "title": "Social account"
+    },
+    {
+      "title": "Terms and conditions",
+      "text1": "Source code",
+      "text2": "Private Policy"
+    }
+  ],
+  "main": [
+    {
+      "title": "The Open Comunity",
+      "status": "Status: Developing...",
+      "text": "An online social media created by and for the community."
+    },
+    {
+      "title": "Building a community",
+      "text1": "Our community, which primarily gathers on Signal, is a testament to this concept."
+    },
+    {
+      "title": "Sharing Experiences",
+      "text1": "In our Discord group, we regularly organize gaming sessions and fun events."
+    }
+  ],
+  "forum": [
+    {
+      "posts": "Posts",
+      "explore": "Explore",
+      "following": "Following"
+    },
+    {
+      "myposts": "My posts"
+    }
+  ],
+  "create": [
+    {
+      "post": "Add Post",
+      "game": "Upload Game",
+      "host": "Buy Hosting"
+    }
+  ],
+  "gaming": [
+    {
+      "all": "All",
+      "systems": "Systems",
+      "genres": "Genres",
+      "build": "Build",
+      "fight": "Fight",
+      "simulator": "Simulator",
+      "sort": "Sort",
+      "puzzle": "Puzzle",
+      "retro": "Retro",
+      "mostplayed": "Most Played",
+      "lessplayed": "Less Played"
+    },
+    {
+      "add": "Add Game"
+    }
+  ],
+  "hosting": [
+    {
+      "title": "WebPage + Hosting for a low price",
+      "text1": "Secure and ethical services powered by Ignisus",
+      "add": "Buy Hosting"
+    },
+    {
+      "all": "All",
+      "services": "Services",
+      "jewelry": "Jewelry",
+      "clothing": "Clothing",
+      "games": "Games",
+      "food": "Food"
+    }
+  ],
+  "minecraft": [
+    {
+      "title": "Rules",
+      "text1": "Do not enter with someone else's account",
+      "text2": "All kinds of cheating are prohibited",
+      "text3": "Lag machines will be removed",
+      "text4": "Do not grief the maps"
+    },
+    {
+      "text1": "News & events on"
+    }
+  ]
+}

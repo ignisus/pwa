@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "../assets/images/users/anonymus.webp",
+    "name": "anonymous",
+    "email": "anonymous@ignisus.org",
+    "description": "Test Account for developers and testers.",
+    "followers": "0",
+    "following": "1",
+    "interests": {
+      "platforms": ["All"],
+      "games": ["All"],
+      "categories": ["All"]
+    },
+    "policyDate": "2024-01-01T14:10:30.000Z",
+    "created": "2024-01-18T14:10:30.000Z"
+  },
+  {
+    "icon": "../assets/images/users/anonymus.webp",
+    "name": "eldiosx",
+    "email": "danieldelgadojimenez@ignisus.org",
+    "description": "De chill.",
+    "followers": "0",
+    "following": "0",
+    "interests": {
+      "platforms": ["Linux"],
+      "games": ["Survival", "Build"],
+      "categories": ["Memes", "Music"]
+    },
+    "policyDate": "2024-01-01T14:10:30.000Z",
+    "created": "2024-01-18T14:10:30.000Z"
+  }
+]

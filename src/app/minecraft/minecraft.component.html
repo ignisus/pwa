@@ -1,0 +1,165 @@
+<section class="hidePC">
+  <div class="search-container">
+    <span routerLink="/gaming" class="back">
+      <svg viewBox="0 -0.5 25 25">
+        <use xlink:href="./assets/images/icons/back.svg#icon" />
+      </svg>
+    </span>
+    <div class="icon">
+      <svg viewBox="0 -0.5 25 25">
+        <use xlink:href="./assets/images/icons/header.svg#search" />
+      </svg>
+      <input type="text" placeholder="">
+    </div>
+  </div>
+</section>
+<div class="main">
+  <section class="content">
+    <h1 class="title">Ignisus&nbsp;Land</h1>
+    <p>Minecraft&nbsp;Network&nbsp;Java&nbsp;&amp;&nbsp;Bedrock</p>
+    <h2>IP:&nbsp;<i>minecraft.ignisus.org</i></h2>
+  </section>
+  <section class="content">
+    <h2>{{ "minecraft.0.title" | translate }}:</h2>
+    <p>{{ "minecraft.0.text1" | translate }}.</p>
+    <p>{{ "minecraft.0.text2" | translate }}.</p>
+    <p>{{ "minecraft.0.text3" | translate }}.</p>
+    <p>{{ "minecraft.0.text4" | translate }}.</p>
+    <br>
+  </section>
+  <section class="content">
+    <br>
+    <p><b>Premiums</b> can skip this, first "/register [password] [password]", them only
+      "/login [password]"</p>
+    <br>
+    <p><b>Skins</b> "/skin url [skin url] [SLIM / STEVE]" You can get url here:
+      <a href="https://minecraftskins.com/"><i>https://minecraftskins.com/</i></a>
+    </p>
+    <br>
+  </section>
+  <section class="content">
+    <h3>{{ "minecraft.1.text1" | translate }}
+      <a class="pointer"
+        href="https://signal.group/#CjQKII117e9C-AsIsCwvlAJIPFDArUlu5rbP2UMqXvA3edRHEhBkbAUiJ2u3GIKjM5KcvqNC"
+        target="_blank">Signal</a>
+      <span>&nbsp;/&nbsp;</span>
+      <a class="pointer" href="https://discord.gg/jbeCEshTur" target="_blank">Discord</a>
+    </h3>
+  </section>
+  <!-- Survival -->
+  <details class="content">
+    <summary class="server hover">
+      <span>Survival&nbsp;(1.20.4)&nbsp;&#8597;</span>
+    </summary>
+    <div>
+      <h2 class="hover">
+        <a class="pointer" href="https://map.ignisus.org/" target="_blank">
+          <span class="icon-map2">&nbsp;</span>
+          <span>Online&nbsp;Map</span><br>
+          <img src="../assets/images/minecraft/map_earth.webp" alt="map"></a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer"
+          href="https://download-directory.github.io/?url=https://github.com/ignisus/survival/tree/main/Earth/region"
+          target="_blank">
+          <span class="icon-download">&nbsp;</span>
+          <span>World&nbsp;Download</span>
+        </a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer" href="https://drive.google.com/drive/folders/1GzDjyGxboIaWEjYwvSbtSKSSB09FdN8L?usp=sharing"
+          target="_blank">
+          <span class="icon-download">&nbsp;</span>
+          <span>Mods&nbsp;(Optional)</span>
+        </a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer" href="https://modrinth.com/resourcepack/rotrblocks/versions#all-versions">
+          <span class="icon-download">&nbsp;</span>
+          <span>Resourcepack&nbsp;(Optional)</span>
+        </a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer" href="https://modrinth.com/shader/bsl-shaders/versions#all-versions">
+          <span class="icon-download">&nbsp;</span>
+          <span>Shaderpack&nbsp;(Optional)</span>
+        </a>
+      </h2>
+      <h2>Plugins:</h2>
+      <div class="plugins hover" *ngFor="let plugin of survival">
+        <a href="{{ plugin.url }}" target="_blank">
+          <span>{{ plugin.name }}</span>
+        </a>
+        <p>{{ plugin.description }}</p>
+      </div>
+    </div>
+    <br>
+  </details>
+  <!-- Creative -->
+  <details class="content">
+    <summary class="server hover">
+      <span>Creative&nbsp;(1.20.4)&nbsp;&#8597;</span>
+    </summary>
+    <div>
+      <h2 class="hover">
+        <a class="pointer" href="https://map2.ignisus.org/" target="_blank">
+          <span class="icon-map2">&nbsp;</span>
+          <span>Online&nbsp;Map</span>
+        </a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer"
+          href="https://download-directory.github.io/?url=https://github.com/ignisus/creative/tree/main/world/region"
+          target="_blank">
+          <span class="icon-download">&nbsp;</span>
+          <span>World&nbsp;Download</span>
+        </a>
+      </h2>
+      <h2>Plugins:</h2>
+      <div class="plugins hover" *ngFor="let plugin of creative">
+        <a href="{{ plugin.url }}" target="_blank"><span>{{ plugin.name }}</span></a>
+        <p>{{ plugin.description }}</p>
+      </div>
+      <br>
+    </div>
+  </details>
+  <!-- Mods -->
+  <details class="content">
+    <summary class="server hover">
+      <span>Mods&nbsp;(Close)&nbsp;&#8597;</span>
+    </summary>
+    <div>
+      <h2 class="hover">
+        <a class="pointer"
+          href="https://maven.minecraftforge.net/net/minecraftforge/fmlonly/1.18.2-40.2.10/fmlonly-1.18.2-40.2.10-installer.jar">
+          <span class="icon-download">&nbsp;</span>
+          <span>Download&nbsp;Forge</span>
+        </a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer"
+          href="https://download-directory.github.io/?url=https://github.com/ignisus/mods/tree/main/download/mods"
+          target="_blank">
+          <span class="icon-download">&nbsp;</span>
+          <span>Download&nbsp;Mods</span>
+        </a>
+      </h2>
+      <h2 class="hover">
+        <a class="pointer"
+          href="https://download-directory.github.io/?url=https://github.com/ignisus/mods/tree/main/world/region"
+          target="_blank">
+          <span class="icon-download">&nbsp;</span>
+          <span>Download&nbsp;World</span>
+        </a>
+      </h2>
+      <h2>Mods:</h2>
+      <p>Ice and fire</p>
+      <p>Jei</p>
+      <p>Security Craft</p>
+      <p>Journey Map</p>
+      <p>Tombstone</p>
+      <p>And more...</p>
+      <br>
+    </div>
+  </details>
+</div>

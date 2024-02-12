@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <survival>
+    <name>Purpur</name>
+    <url>https://purpurmc.org/docs/</url>
+    <description>Scavenger Spawners with Iron Beak or higher + Silk Touch.</description>
+  </survival>
+  <survival>
+    <name>EssentialsX</name>
+    <url>https://essentialsx.net/</url>
+    <description>Teleports &#x27;/warp [name]&#x27; to a place or /tpa [username] to a player.</description>
+  </survival>
+  <survival>
+    <name>Vault</name>
+    <url>https://www.spigotmc.org/resources/vault.34315/</url>
+    <description>Economy &#x27;/eco&#x27;</description>
+  </survival>
+  <survival>
+    <name>LuckPerms</name>
+    <url>https://luckperms.net/</url>
+    <description>Administration tool.</description>
+  </survival>
+  <survival>
+    <name>AnimatedScoreboard</name>
+    <url>https://www.spigotmc.org/resources/animatedscoreboard.20848/</url>
+    <description>Hide scoreboard with &#x27;/asb toggle&#x27;</description>
+  </survival>
+  <survival>
+    <name>GriefDefender</name>
+    <url>https://www.griefdefender.com/</url>
+    <description>Use the wooden shovel, you can only claim on the Earth map.</description>
+  </survival>
+  <survival>
+    <name>SkinsRestorer</name>
+    <url>https://skinsrestorer.net/</url>
+    <description>&#x27;/skin [url] [steve/slim]&#x27;</description>
+  </survival>
+  <survival>
+    <name>️Vehicles</name>
+    <url>https://docs.vehiclesplugin.com/introduction/faq</url>
+    <description>You can buy vehicles on &#x27;/warp town&#x27;</description>
+  </survival>
+  <survival>
+    <name>ViaVersion</name>
+    <url>https://www.spigotmc.org/resources/viaversion.19254/</url>
+    <description>Allow newer client versions to connect to older server versions.</description>
+  </survival>
+  <survival>
+    <name>WorldEdit</name>
+    <url>https://worldedit.enginehub.org/en/latest/</url>
+    <description>Administration tool.</description>
+  </survival>
+  <survival>
+    <name>WorldGuard</name>
+    <url>https://worldguard.enginehub.org/en/latest/</url>
+    <description>Administration tool.</description>
+  </survival>
+  <survival>
+    <name>CommandPanels</name>
+    <url>https://commandpanels.net/wiki</url>
+    <description>Menu can open with slot 9 book.</description>
+  </survival>
+  <survival>
+    <name>DoubleJump</name>
+    <url>https://github.com/imDMK/DoubleJump</url>
+    <description>Double jumping with delay and streak.</description>
+  </survival>
+  <survival>
+    <name>VEGAS</name>
+    <url>https://www.spigotmc.org/resources/vegas-%E2%AD%90-casino-plugin-%E2%96%BA-15-game-modes-1-12-1-20-4.92321/</url>
+    <description>There are 15 modes in the main menu.</description>
+  </survival>
+  <survival>
+    <name>EconomyShopGUI</name>
+    <url>https://wiki.gpplugins.com/economyshopgui/</url>
+    <description>Accessed from the book menu.</description>
+  </survival>
+  <survival>
+    <name>Vehicles</name>
+    <url>https://docs.vehiclesplugin.com/introduction/faq</url>
+    <description>You can buy them at &#x27;/warp town&#x27;</description>
+  </survival>
+  <survival>
+    <name>Shopkeepers</name>
+    <url>https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki</url>
+    <description>Create your own npc shops.</description>
+  </survival>
+  <survival>
+    <name>Jobs Reborn</name>
+    <url>https://www.spigotmc.org/resources/jobs-reborn.4216/</url>
+    <description>Choose a job with &#x27;/warp jobs&#x27;</description>
+  </survival>
+  <survival>
+    <name>Better Teams</name>
+    <url>https://booksaw.github.io/BetterTeams/</url>
+    <description>Create teams to fight to be the best.</description>
+  </survival>
+  <survival>
+    <name>LevelledMobs</name>
+    <url>https://github.com/ArcanePlugins/LevelledMobs/wiki</url>
+    <description>Level-up mobs on the server, RPG-style!</description>
+  </survival>
+  <survival>
+    <name>EliteMobs</name>
+    <url>https://github.com/MagmaGuy/EliteMobs/wiki</url>
+    <description>Increase some variety and challenge to the end-game of Minecraft.</description>
+  </survival>
+  <survival>
+    <name>DiceFurniture</name>
+    <url>https://dicecraft.de/furniture/</url>
+    <description>If you suffer from lag you can hide decorations &#x27;/furniture toggle&#x27;</description>
+  </survival>
+  <survival>
+    <name>WeaponMechanics</name>
+    <url>https://cjcrafter.gitbook.io/weaponmechanics/</url>
+    <description>You can buy them at &#x27;/warp town&#x27;</description>
+  </survival>
+  <survival>
+    <name>ArmorMechanics</name>
+    <url>https://cjcrafter.gitbook.io/armormechanics/</url>
+    <description>You can buy them at &#x27;/warp town&#x27;</description>
+  </survival>
+  <survival>
+    <name>Aurelium Skills</name>
+    <url>https://wiki.aurelium.dev/skills</url>
+    <description>Each tool has a right click ability. For more information &#x27;/skill&#x27;</description>
+  </survival>
+  <creative>
+    <name>EssentialsX</name>
+    <url>https://essentialsx.net/</url>
+    <description>Administration tool.</description>
+  </creative>
+  <creative>
+    <name>Vault</name>
+    <url>https://www.spigotmc.org/resources/vault.34315/</url>
+    <description>Economy &#x27;/eco&#x27;</description>
+  </creative>
+  <creative>
+    <name>LuckPerms</name>
+    <url>https://luckperms.net/</url>
+    <description>Administration tool.</description>
+  </creative>
+  <creative>
+    <name>GriefDefender</name>
+    <url>https://www.griefdefender.com/</url>
+    <description>Claims tool.</description>
+  </creative>
+  <creative>
+    <name>SkinsRestorer</name>
+    <url>https://skinsrestorer.net/</url>
+    <description>&#x27;/skin [url] [steve/slim]&#x27;</description>
+  </creative>
+  <creative>
+    <name>️Vehicles</name>
+    <url>https://docs.vehiclesplugin.com/introduction/faq</url>
+    <description>Vehicles without resource pack</description>
+  </creative>
+  <creative>
+    <name>ViaVersion</name>
+    <url>https://www.spigotmc.org/resources/viaversion.19254/</url>
+    <description>Allow newer client versions to connect to older server versions.</description>
+  </creative>
+  <creative>
+    <name>WorldEdit</name>
+    <url>https://worldedit.enginehub.org/en/latest/</url>
+    <description>Administration tool.</description>
+  </creative>
+  <creative>
+    <name>WorldGuard</name>
+    <url>https://worldguard.enginehub.org/en/latest/</url>
+    <description>Administration tool.</description>
+  </creative>
+  <creative>
+    <name>CommandPanels</name>
+    <url>https://commandpanels.net/wiki</url>
+    <description>Menu can open with slot 9 book.</description>
+  </creative>
+  <creative>
+    <name>BlueMap</name>
+    <url>https://bluemap.bluecolored.de/</url>
+    <description>https://map2.ignisus.org/</description>
+  </creative>
+  <mods>
+    <name>EssentialsX</name>
+    <url>https://essentialsx.net/</url>
+    <description>Administration tool.</description>
+  </mods>
+</root>

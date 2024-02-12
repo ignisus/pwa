@@ -1,0 +1,279 @@
+// Normalize
+
+* {
+  font-family: "Liberation Serif", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  border: none;
+  outline: none;
+  list-style-type: none;
+  background-color: transparent;
+  position: relative;
+  min-width: 0;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+}
+
+//Themes
+
+.dark-theme {
+  --text: rgb(204, 204, 204);
+  --text-hover: #fff;
+  --background: rgb(24, 25, 26);
+  --background-second: rgb(36, 37, 38);
+  --background-third: rgb(58, 59, 60);
+  --background-four: rgb(58, 59, 60);
+  --hover: linear-gradient(#f5ce17, #f3b80d, #ff1d58, #ff4677);
+  --shadow: rgba(255, 255, 255, 0.4);
+}
+
+.light-theme {
+  --text: rgb(15, 15, 15);
+  --text-hover: #000;
+  --background: rgb(240, 242, 245);
+  --background-second: rgb(255, 255, 255);
+  --background-third: rgb(255, 255, 255);
+  --background-four: rgb(240, 242, 245);
+  --hover: linear-gradient(#f5ce17, #f3b80d, #ff1d58, #ff4677);
+  --shadow: rgba(0, 0, 0, 0.4);
+}
+
+// General
+
+html {
+  scrollbar-width: thin;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+main {
+  margin: 75px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.05rem;
+}
+
+h5 {
+  font-size: 0.7rem;
+}
+
+h6 {
+  font-size: 0.35rem;
+}
+
+span,
+time {
+  font-size: 1rem;
+  color: var(--text);
+}
+
+p {
+  text-wrap: pretty;
+  font-size: 1rem;
+}
+
+.info {
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.content {
+  margin: 0 auto 10px;
+  background-color: var(--background-second);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+  overflow: hidden;
+  width: 100%;
+  line-height: 1;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+    background-color: var(--background-third);
+    border-radius: 10px;
+  }
+
+  input {
+    padding: 0 5px 0 5px;
+    font-size: 1rem;
+    background-color: var(--background-third);
+    color: var(--text);
+    flex-grow: 1;
+  }
+
+  svg {
+    text-align: center;
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+    stroke: var(--text);
+    stroke-width: 1.5;
+    fill: none;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0;
+  }
+
+  .back {
+    padding-right: 10px;
+
+    svg {
+      fill: var(--text);
+    }
+  }
+}
+
+.black {
+  background-image: var(--hover);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hidePC {
+  display: none;
+}
+
+svg {
+  fill: var(--text);
+}
+
+.nav-links svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--text);
+  stroke-width: 2;
+  fill: none;
+}
+
+a.active .icon-type1 {
+  fill: var(--text);
+  stroke: var(--background);
+  text-shadow: var(--text) 1px 0 10px;
+}
+
+a.active .icon-type2 {
+  fill: var(--text);
+  text-shadow: var(--text) 1px 0 10px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 768px) {
+  .hover:hover span {
+    filter: drop-shadow(2px 2px 5px var(--shadow));
+    cursor: pointer;
+    color: var(--text-hover);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  a.active .icon-type1 {
+    transform: scale(1.5);
+  }
+
+  a.active .icon-type2 {
+    transform: scale(1.3);
+  }
+
+  main {
+    margin: 0 10px 0 10px;
+  }
+
+  .hideMobile {
+    display: none;
+  }
+
+  .hidePC {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  html {
+    font-size: 10px;
+  }
+
+  .search-container {
+    margin: 5px;
+
+    input {
+      padding: 0;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 200px) {
+  html {
+    font-size: 8px;
+  }
+}

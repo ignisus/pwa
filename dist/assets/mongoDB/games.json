@@ -1,0 +1,168 @@
+[
+    {
+        "icon": "../assets/images/games/minecraft.webp",
+        "name": "Minecraft",
+        "url": null,
+        "goto": "/minecraft",
+        "target": "_self",
+        "platforms": {
+            "linux": true,
+            "windows": true,
+            "mac": true,
+            "android": false,
+            "wine": false
+        },
+        "genre": {
+            "build": true,
+            "fight": true,
+            "simulator": false,
+            "retro": false,
+            "puzzle": false
+        }
+    },
+    {
+        "icon": "../assets/images/games/pokespain.webp",
+        "name": "PokeSpain",
+        "url": "https://gitlab.com/ignisus/games/pokespain",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": true,
+            "mac": false,
+            "android": false,
+            "wine": true
+        },
+        "genre": {
+            "build": false,
+            "fight": true,
+            "simulator": false,
+            "retro": true,
+            "puzzle": true
+        }
+    },
+    {
+        "icon": "../assets/images/games/pokemon3d.webp",
+        "name": "Pokemon 3D",
+        "url": "https://pokemon3d.net/",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": true,
+            "mac": false,
+            "android": false,
+            "wine": true
+        },
+        "genre": {
+            "build": false,
+            "fight": true,
+            "simulator": false,
+            "retro": true,
+            "puzzle": true
+        }
+    },
+    {
+        "icon": "../assets/images/games/tetris.webp",
+        "name": "Tetris",
+        "url": "../assets/games/tetris/index.html",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": false,
+            "mac": false,
+            "android": false,
+            "wine": false,
+            "web": true
+        },
+        "genre": {
+            "build": false,
+            "fight": false,
+            "simulator": false,
+            "retro": true,
+            "puzzle": true
+        }
+    },
+    {
+        "icon": "../assets/images/games/pong.webp",
+        "name": "Pong",
+        "url": "../assets/games/pong/index.html",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": false,
+            "mac": false,
+            "android": false,
+            "wine": false,
+            "web": true
+        },
+        "genre": {
+            "build": false,
+            "fight": false,
+            "simulator": false,
+            "retro": true,
+            "puzzle": false
+        }
+    },
+    {
+        "icon": "../assets/images/games/minesweeper.webp",
+        "name": "Minesweeper",
+        "url": "../assets/games/minesweeper/index.html",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": false,
+            "mac": false,
+            "android": false,
+            "wine": false,
+            "web": true
+        },
+        "genre": {
+            "build": false,
+            "fight": false,
+            "simulator": false,
+            "retro": true,
+            "puzzle": true
+        }
+    },
+    {
+        "icon": "../assets/images/games/testVulkan.webp",
+        "name": "Test Vulkan 1",
+        "url": "../assets/games/demo3d/index.html",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": false,
+            "mac": false,
+            "android": false,
+            "wine": false,
+            "web": true
+        },
+        "genre": {
+            "build": false,
+            "fight": false,
+            "simulator": true,
+            "retro": false,
+            "puzzle": false
+        }
+    },
+    {
+        "icon": "../assets/images/games/testVulkan.webp",
+        "name": "Test Vulkan 2",
+        "url": "../assets/games/godot4test2/index.html",
+        "target": "_blank",
+        "platforms": {
+            "linux": false,
+            "windows": false,
+            "mac": false,
+            "android": false,
+            "wine": false,
+            "web": true
+        },
+        "genre": {
+            "build": false,
+            "fight": false,
+            "simulator": true,
+            "retro": false,
+            "puzzle": false
+        }
+    }
+]

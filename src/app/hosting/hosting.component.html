@@ -1,0 +1,53 @@
+<section class="hidePC">
+  <div class="search-container">
+    <div class="icon">
+      <svg viewBox="0 -0.5 25 25">
+        <use xlink:href="./assets/images/icons/header.svg#search" />
+      </svg>
+      <input type="text" [(ngModel)]="searchText" placeholder="" (keyup)="filterItems()">
+    </div>
+    <h3>
+      <b>{{ "header.hosting" | translate }}</b>
+    </h3>
+  </div>
+</section>
+<section class="content">
+  <div class="menu">
+    <button type="button" class="category hover" [ngClass]="{'active': isCategoryActive('all')}"
+      (click)="filterByCategory('all')">
+      <span>{{ "hosting.1.all" | translate }}</span>
+    </button>
+    <button type="button" class="category hover" [ngClass]="{'active': isCategoryActive('services')}"
+      (click)="filterByCategory('services')">
+      <span>{{ "hosting.1.services" | translate }}</span>
+    </button>
+    <button type="button" class="category hover" [ngClass]="{'active': isCategoryActive('jewelry')}"
+      (click)="filterByCategory('jewelry')">
+      <span>{{ "hosting.1.jewelry" | translate }}</span>
+    </button>
+    <button type="button" class="category hover" [ngClass]="{'active': isCategoryActive('games')}"
+      (click)="filterByCategory('games')">
+      <span>{{ "hosting.1.games" | translate }}</span>
+    </button>
+    <button type="button" class="category hover" [ngClass]="{'active': isCategoryActive('+18')}"
+      (click)="filterByCategory('+18')">
+      <span>+18</span>
+    </button>
+  </div>
+</section>
+<section class="content">
+  <div class="items-container">
+    <div class="item hover" routerLink="/create">
+      <img src="./assets/images/hosting/database.svg" alt="Add">
+      <span>{{ "hosting.0.add" | translate }} +</span>
+    </div>
+    <div class="item hover" *ngFor="let item of filteredItems" (click)="onItemClick(item.url)">
+      <img [src]="item.icon" alt="logo">
+      <span>{{ item.name }}</span>
+    </div>
+  </div>
+</section>
+<section class="content">
+  <h2 class="info">
+    {{ "hosting.0.text1" | translate }}</h2>
+</section>

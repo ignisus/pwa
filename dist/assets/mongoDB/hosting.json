@@ -1,0 +1,43 @@
+[
+    {
+        "name": "AC Nutritionis",
+        "icon": "../assets/images/hosting/acnutritionis.webp",
+        "keywords": "AC Nutritionis - Nutrición - Nutricion - Nutrition - Eating disorders - Obesity",
+        "categories": [
+            "all",
+            "services"
+        ],
+        "url": "https://acnutritionis.com"
+    },
+    {
+        "name": "IgnisusLand",
+        "icon": "../assets/images/hosting/ignisusland.webp",
+        "keywords": "IgnisusLand - Minecraft - Mods - Survival - Creative - Plugins - Java",
+        "categories": [
+            "all",
+            "games"
+        ],
+        "url": "/minecraft"
+    },
+    {
+        "name": "D'Plata",
+        "icon": "../assets/images/hosting/dplata.svg",
+        "keywords": "D'Plata - DPlata - Jewelry - Fashion - Accessories",
+        "categories": [
+            "all",
+            "jewelry"
+        ],
+        "url": "https://dplata.ignisus.org/"
+    },
+    {
+        "name": "MangoBet",
+        "icon": "../assets/images/hosting/mangobet.webp",
+        "keywords": "MangoBet - Casino - Game - Online",
+        "categories": [
+            "all",
+            "games",
+            "+18"
+        ],
+        "url": "https://github.com/mangobet"
+    }
+]

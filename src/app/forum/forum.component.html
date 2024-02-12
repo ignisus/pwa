@@ -1,0 +1,75 @@
+<section class="hidePC">
+  <div class="search-container">
+    <div class="icon">
+      <svg viewBox="0 -0.5 25 25">
+        <use xlink:href="./assets/images/icons/header.svg#search" />
+      </svg>
+      <input type="text" placeholder="">
+    </div>
+    <h3>
+      <b>{{ "header.forum" | translate }}</b>
+    </h3>
+  </div>
+</section>
+<section class="content social-btn">
+  <button class="hover" type="button" (click)="selectButton('posts')"
+    [ngClass]="{'selected': selectedButton === 'posts'}">
+    <span>{{ "header.profile" | translate }}</span>
+  </button>
+  <button class="hover" type="button" (click)="selectButton('explore')"
+    [ngClass]="{'selected': selectedButton === 'explore'}">
+    <span>{{ "forum.0.explore" | translate }}</span>
+  </button>
+  <button class="hover" type="button" (click)="selectButton('following')"
+    [ngClass]="{'selected': selectedButton === 'following'}">
+    <span>{{ "forum.0.following" | translate }}</span>
+  </button>
+</section>
+<section *ngIf="selectedButton === 'posts'">
+  <app-account></app-account>
+</section>
+<section class="content" *ngIf="selectedButton === 'explore'">
+  <app-explorer></app-explorer>
+</section>
+<section class="following" *ngIf="selectedButton === 'following'">
+  <div class="post" *ngFor="let post of posts">
+    <div class="user hover">
+      <img [lazyLoad]="post.icon" alt="">&nbsp;
+      <span routerLink="/account">
+        <b>&#64;{{ post.user }}</b>
+      </span>
+      <time class="date">
+        <span><i>&nbsp;·&nbsp;{{ post.created }}</i></span>
+      </time>
+    </div>
+    <div class="photo">
+      <img [lazyLoad]="post.url" alt="">
+    </div>
+    <p>
+      {{ post.description }}
+      <i>#{{post.category}}</i>
+    </p>
+    <div class="post-btn">
+      <div class="left">
+        <button type="button"><span>Reply...</span></button>
+      </div>
+      <div class="right">
+        <button type="button" class="share">
+          <svg>
+            <use xlink:href="./assets/images/icons/share.svg#share" />
+          </svg>
+        </button>
+        <button type="button" class="love">
+          <svg>
+            <use xlink:href="./assets/images/icons/love.svg#love" />
+          </svg>
+        </button>
+        <button type="button" class="save">
+          <svg>
+            <use xlink:href="./assets/images/icons/save.svg#save" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

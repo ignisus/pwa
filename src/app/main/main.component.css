@@ -1,0 +1,101 @@
+.wrap {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.signal {
+  width: 50%;
+  padding-right: 5px;
+}
+
+.discord {
+  padding-left: 5px;
+  width: 50%;
+}
+
+.news {
+  text-align: center;
+  margin: auto;
+}
+
+.news svg {
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+}
+
+.login {
+  padding: 20px;
+  width: 100%;
+
+  label {
+    display: block;
+  }
+
+  input {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-third);
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    color: var(--text);
+  }
+
+  .email:has(:focus) {
+    input:invalid {
+      border: 1px solid red;
+    }
+
+    input:valid {
+      border: 1px solid green;
+    }
+  }
+
+  .password:has(:focus) {
+    input:invalid {
+      border: 1px solid red;
+    }
+
+    input:valid {
+      border: 1px solid green;
+    }
+  }
+
+  button {
+    background-color: var(--background-four);
+    color: var(--text);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+  .discord,
+  .signal {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/*Info extra*/
+.progress-bar {
+  width: 100%;
+  background-color: var(--text);
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress {
+  height: 20px;
+  background-color: #76b852;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}

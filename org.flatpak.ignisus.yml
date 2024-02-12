@@ -1,0 +1,13 @@
+id: org.flatpak.ignisus
+runtime: org.freedesktop.Platform
+runtime-version: '23.08'
+sdk: org.freedesktop.Sdk
+command: index.html
+modules:
+  - name: ignisus
+    buildsystem: simple
+    build-commands:
+      - install -D index.html /app/bin/index.html
+    sources:
+      - type: file
+        path: index.html

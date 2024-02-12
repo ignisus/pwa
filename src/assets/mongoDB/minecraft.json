@@ -1,0 +1,193 @@
+{
+    "survival": [
+        {
+            "name": "Purpur",
+            "url": "https://purpurmc.org/docs/",
+            "description": "Scavenger Spawners with Iron Beak or higher + Silk Touch."
+        },
+        {
+            "name": "EssentialsX",
+            "url": "https://essentialsx.net/",
+            "description": "Teleports '/warp [name]' to a place or /tpa [username] to a player."
+        },
+        {
+            "name": "Vault",
+            "url": "https://www.spigotmc.org/resources/vault.34315/",
+            "description": "Economy '/eco'"
+        },
+        {
+            "name": "LuckPerms",
+            "url": "https://luckperms.net/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "AnimatedScoreboard",
+            "url": "https://www.spigotmc.org/resources/animatedscoreboard.20848/",
+            "description": "Hide scoreboard with '/asb toggle'"
+        },
+        {
+            "name": "GriefDefender",
+            "url": "https://www.griefdefender.com/",
+            "description": "Use the wooden shovel, you can only claim on the Earth map."
+        },
+        {
+            "name": "SkinsRestorer",
+            "url": "https://skinsrestorer.net/",
+            "description": "'/skin [url] [steve/slim]'"
+        },
+        {
+            "name": "️Vehicles",
+            "url": "https://docs.vehiclesplugin.com/introduction/faq",
+            "description": "You can buy vehicles on '/warp town'"
+        },
+        {
+            "name": "ViaVersion",
+            "url": "https://www.spigotmc.org/resources/viaversion.19254/",
+            "description": "Allow newer client versions to connect to older server versions."
+        },
+        {
+            "name": "WorldEdit",
+            "url": "https://worldedit.enginehub.org/en/latest/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "WorldGuard",
+            "url": "https://worldguard.enginehub.org/en/latest/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "CommandPanels",
+            "url": "https://commandpanels.net/wiki",
+            "description": "Menu can open with slot 9 book."
+        },
+        {
+            "name": "DoubleJump",
+            "url": "https://github.com/imDMK/DoubleJump",
+            "description": "Double jumping with delay and streak."
+        },
+        {
+            "name": "VEGAS",
+            "url": "https://www.spigotmc.org/resources/vegas-%E2%AD%90-casino-plugin-%E2%96%BA-15-game-modes-1-12-1-20-4.92321/",
+            "description": "There are 15 modes in the main menu."
+        },
+        {
+            "name": "EconomyShopGUI",
+            "url": "https://wiki.gpplugins.com/economyshopgui/",
+            "description": "Accessed from the book menu."
+        },
+        {
+            "name": "Vehicles",
+            "url": "https://docs.vehiclesplugin.com/introduction/faq",
+            "description": "You can buy them at '/warp town'"
+        },
+        {
+            "name": "Shopkeepers",
+            "url": "https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki",
+            "description": "Create your own npc shops."
+        },
+        {
+            "name": "Jobs Reborn",
+            "url": "https://www.spigotmc.org/resources/jobs-reborn.4216/",
+            "description": "Choose a job with '/warp jobs'"
+        },
+        {
+            "name": "Better Teams",
+            "url": "https://booksaw.github.io/BetterTeams/",
+            "description": "Create teams to fight to be the best."
+        },
+        {
+            "name": "LevelledMobs",
+            "url": "https://github.com/ArcanePlugins/LevelledMobs/wiki",
+            "description": "Level-up mobs on the server, RPG-style!"
+        },
+        {
+            "name": "EliteMobs",
+            "url": "https://github.com/MagmaGuy/EliteMobs/wiki",
+            "description": "Increase some variety and challenge to the end-game of Minecraft."
+        },
+        {
+            "name": "DiceFurniture",
+            "url": "https://dicecraft.de/furniture/",
+            "description": "If you suffer from lag you can hide decorations '/furniture toggle'"
+        },
+        {
+            "name": "WeaponMechanics",
+            "url": "https://cjcrafter.gitbook.io/weaponmechanics/",
+            "description": "You can buy them at '/warp town'"
+        },
+        {
+            "name": "ArmorMechanics",
+            "url": "https://cjcrafter.gitbook.io/armormechanics/",
+            "description": "You can buy them at '/warp town'"
+        },
+        {
+            "name": "Aurelium Skills",
+            "url": "https://wiki.aurelium.dev/skills",
+            "description": "Each tool has a right click ability. For more information '/skill'"
+        }
+    ],
+    "creative": [
+        {
+            "name": "EssentialsX",
+            "url": "https://essentialsx.net/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "Vault",
+            "url": "https://www.spigotmc.org/resources/vault.34315/",
+            "description": "Economy '/eco'"
+        },
+        {
+            "name": "LuckPerms",
+            "url": "https://luckperms.net/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "GriefDefender",
+            "url": "https://www.griefdefender.com/",
+            "description": "Claims tool."
+        },
+        {
+            "name": "SkinsRestorer",
+            "url": "https://skinsrestorer.net/",
+            "description": "'/skin [url] [steve/slim]'"
+        },
+        {
+            "name": "️Vehicles",
+            "url": "https://docs.vehiclesplugin.com/introduction/faq",
+            "description": "Vehicles without resource pack"
+        },
+        {
+            "name": "ViaVersion",
+            "url": "https://www.spigotmc.org/resources/viaversion.19254/",
+            "description": "Allow newer client versions to connect to older server versions."
+        },
+        {
+            "name": "WorldEdit",
+            "url": "https://worldedit.enginehub.org/en/latest/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "WorldGuard",
+            "url": "https://worldguard.enginehub.org/en/latest/",
+            "description": "Administration tool."
+        },
+        {
+            "name": "CommandPanels",
+            "url": "https://commandpanels.net/wiki",
+            "description": "Menu can open with slot 9 book."
+        },
+        {
+            "name": "BlueMap",
+            "url": "https://bluemap.bluecolored.de/",
+            "description": "https://map2.ignisus.org/"
+        }
+    ],
+    "mods": [
+        {
+            "name": "EssentialsX",
+            "url": "https://essentialsx.net/",
+            "description": "Administration tool."
+        }
+    ]
+}

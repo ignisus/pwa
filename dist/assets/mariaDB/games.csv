@@ -1,0 +1,9 @@
+icon,name,url,goto,target,platforms/linux,platforms/windows,platforms/mac,platforms/android,platforms/wine,genre/build,genre/fight,genre/simulator,genre/retro,genre/puzzle,platforms/web
+../assets/images/games/minecraft.webp,Minecraft,,/minecraft,_self,true,true,true,false,false,true,true,false,false,false,
+../assets/images/games/pokespain.webp,PokeSpain,https://gitlab.com/ignisus/games/pokespain,,_blank,false,true,false,false,true,false,true,false,true,true,
+../assets/images/games/pokemon3d.webp,Pokemon 3D,https://pokemon3d.net/,,_blank,false,true,false,false,true,false,true,false,true,true,
+../assets/images/games/tetris.webp,Tetris,../assets/games/tetris/index.html,,_blank,false,false,false,false,false,false,false,false,true,true,true
+../assets/images/games/pong.webp,Pong,../assets/games/pong/index.html,,_blank,false,false,false,false,false,false,false,false,true,false,true
+../assets/images/games/minesweeper.webp,Minesweeper,../assets/games/minesweeper/index.html,,_blank,false,false,false,false,false,false,false,false,true,true,true
+../assets/images/games/testVulkan.webp,Test Vulkan 1,../assets/games/demo3d/index.html,,_blank,false,false,false,false,false,false,false,true,false,false,true
+../assets/images/games/testVulkan.webp,Test Vulkan 2,../assets/games/godot4test2/index.html,,_blank,false,false,false,false,false,false,false,true,false,false,true

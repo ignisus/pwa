@@ -1,0 +1,30 @@
+.create-btn {
+  max-width: 768px;
+  margin: 20px auto;
+  text-align: center;
+
+  input[type="file"] {
+    display: none;
+  }
+
+  label {
+    background-color: var(--background-second);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+  }
+
+  summary {
+    padding: 10px;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .create-btn {
+    label {
+      width: 100%;
+    }
+  }
+}

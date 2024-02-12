@@ -1,0 +1,55 @@
+<div class="grid-container">
+  <div class="grid-item" *ngFor="let post of posts" (click)="openImage(post)">
+    <p class="alt-no-carga">{{ post.description }}</p>
+    <img [lazyLoad]="post.url">
+  </div>
+  <div *ngIf="selPost" class="lightbox">
+    <span class="close" (click)="closeImage()"></span>
+    <div class="post">
+      <div class="user hover">
+        <img [src]="selPost.icon" alt="">&nbsp;
+        <span>
+          <b>&#64;{{ selPost.user }}</b>
+        </span>
+        <time>
+          <i>&nbsp;·&nbsp;{{ selPost.created }}</i>
+        </time>
+      </div>
+      <span class="close-btn" (click)="closeImage()">
+        <svg width="32" height="32" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+          <path
+            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+        </svg>
+      </span>
+      <div class="photo">
+        <img [src]="selPost.url" alt="">
+      </div>
+      <p>
+        {{ selPost.description }}
+        <i>#{{selPost.category}}</i>
+      </p>
+      <div class="post-btn">
+        <div class="left">
+          <button type="button"><span>Reply...</span></button>
+        </div>
+        <div class="right">
+          <button type="button" class="share">
+            <svg>
+              <use xlink:href="./assets/images/icons/share.svg#share" />
+            </svg>
+          </button>
+          <button type="button" class="love">
+            <svg>
+              <use xlink:href="./assets/images/icons/love.svg#love" />
+            </svg>
+          </button>
+          <button type="button" class="save">
+            <svg>
+              <use xlink:href="./assets/images/icons/save.svg#save" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

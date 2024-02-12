@@ -1,0 +1,119 @@
+.social-btn {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  button {
+    padding: 5px;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+}
+
+.social-btn button.selected {
+  background-color: var(--background-four);
+}
+
+.post-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+
+  button {
+    color: var(--text);
+    margin: 10px;
+  }
+}
+
+.left button span {
+  background-image: var(--hover);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.photo {
+  overflow: hidden;
+  text-align: center;
+
+  img {
+    width: 100%;
+    max-width: 40vh;
+  }
+}
+
+.right button:hover {
+  transform: scale(1.2);
+}
+
+.left button:hover {
+  cursor: pointer;
+}
+
+.right svg,
+.share svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: var(--text);
+  fill: none;
+  cursor: pointer;
+}
+
+.share svg {
+  fill: var(--text);
+}
+
+.right svg:hover {
+  stroke: var(--hover);
+  fill: var(--hover);
+}
+
+.post {
+  background-color: var(--background-second);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px auto;
+
+  p {
+    padding: 10px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .user {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .post-btn {
+    button {
+      margin: 7px;
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .post-btn {
+    button {
+      margin: 5px;
+    }
+  }
+}

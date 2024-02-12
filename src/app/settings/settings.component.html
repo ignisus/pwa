@@ -1,0 +1,72 @@
+<section class="hidePC">
+    <div class="search-container">
+        <div class="icon">
+            <svg viewBox="0 -0.5 25 25">
+                <use xlink:href="./assets/images/icons/header.svg#search" />
+            </svg>
+            <input type="text" placeholder="">
+        </div>
+        <h3>
+            <b>{{ "header.settings" | translate }}</b>
+        </h3>
+    </div>
+</section>
+<div class="warp">
+    <section class="grid1">
+        <h3>{{ 'settings.0.title' | translate }}:</h3>
+    </section>
+    <section class="grid2">
+        <span>{{ "header.theme" | translate }}:&nbsp;</span>
+    </section>
+    <section class="grid3">
+        <button class="btn hover" type="button" (click)="toggleTheme()">
+            <span>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708" />
+                </svg>
+            </span>
+        </button>
+    </section>
+    <section class="grid4">
+        <span>{{ 'header.language' | translate }}:&nbsp;</span>
+    </section>
+    <section class="grid5">
+        <select class="btn" (change)="changeLanguage($event)" [value]="currentLanguage">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+        </select>
+    </section>
+    <section class="grid6">
+        <h3>{{ 'settings.1.title' | translate }}:</h3>
+    </section>
+    <section class="grid7">
+        <a routerLink="/login">
+            <p class="btn hover">
+                <span>
+                    {{ "header.login" | translate }}&nbsp;/&nbsp;{{ "header.signup" | translate }}
+                </span>
+            </p>
+        </a>
+    </section>
+    <section class="grid8">
+        <h3>{{ 'settings.2.title' | translate }}:</h3>
+    </section>
+    <section class="grid9">
+        <a href="https://gitlab.com/ignisus" target="_blank">
+            <p class="btn hover">
+                <span>&nbsp;</span>
+                <span>{{ 'settings.2.text1' | translate }}</span>
+            </p>
+        </a>
+    </section>
+    <section class="grid10">
+        <a routerLink="/policy">
+            <p class="btn hover">
+                <span>&nbsp;</span>
+                <span>{{ 'settings.2.text2' | translate }}</span>
+            </p>
+        </a>
+    </section>
+</div>

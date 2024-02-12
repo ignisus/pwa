@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ignisus</string>
+    <string name="title_activity_main">Ignisus</string>
+    <string name="package_name">org.ignisus.app</string>
+    <string name="custom_url_scheme">org.ignisus.app</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <icon>../assets/images/users/anonymus.webp</icon>
+    <name>anonymous</name>
+    <email>anonymous@ignisus.org</email>
+    <interests>
+      <platforms>All</platforms>
+      <games>All</games>
+      <categories>All</categories>
+    </interests>
+    <policyDate>2024-01-01T14:10:30.000Z</policyDate>
+    <created>2024-01-18T14:10:30.000Z</created>
+  </row>
+  <row>
+    <icon>../assets/images/users/anonymus.webp</icon>
+    <name>eldiosx</name>
+    <email>danieldelgadojimenez@ignisus.org</email>
+    <interests>
+      <platforms>Linux</platforms>
+      <games>Survival</games>
+      <games>Build</games>
+      <categories>Memes</categories>
+      <categories>Music</categories>
+    </interests>
+    <policyDate>2024-01-01T14:10:30.000Z</policyDate>
+    <created>2024-01-18T14:10:30.000Z</created>
+  </row>
+</root>

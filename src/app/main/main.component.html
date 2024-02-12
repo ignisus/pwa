@@ -1,0 +1,132 @@
+<section class="hidePC">
+  <div class="search-container">
+    <div class="icon">
+      <svg viewBox="0 -0.5 25 25">
+        <use xlink:href="./assets/images/icons/header.svg#search" />
+      </svg>
+      <input aria-label="search" type="text" placeholder="">
+    </div>
+    <h3>
+      <b>IGNISUS</b>
+    </h3>
+  </div>
+</section>
+<section class="content">
+  <div class="info">
+    <h1>
+      {{ "main.0.title" | translate }}
+    </h1>
+    <p>
+      {{ "main.0.text" | translate }}
+    </p>
+    <h3 class="black">
+      {{ "main.0.status" | translate }}
+      &#9203;
+    </h3>
+    <b>Frontend:</b>
+    <div class="progress-bar">
+      <div class="progress" style="width: 40%;"></div>
+    </div>
+    <b>Backend:</b>
+    <div class="progress-bar">
+      <div class="progress" style="width: 1%;"></div>
+    </div>
+  </div>
+</section>
+<section class="content">
+  <details name="login">
+    <summary class="hover">
+      <span>
+        <h1>{{ "header.login" | translate }}</h1>
+      </span>
+    </summary>
+    <form class="login" action="/forum" method="post">
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="@" required>
+      </div>
+      <div class="password">
+        <label for="password">Password:</label>
+        <input autocomplete="off" type="password" id="password" name="password" placeholder="**********" required>
+      </div>
+      <button type="submit" class="hover" routerLink="/forum">
+        <span>{{ "header.login" | translate }}</span>
+      </button>
+    </form>
+  </details>
+</section>
+<section class="content">
+  <details name="login">
+    <summary class="hover">
+      <span>
+        <h1>{{ "header.signup" | translate }}</h1>
+      </span>
+    </summary>
+    <form class="login" action="/forum" method="post">
+      <div class="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="@" required>
+      </div>
+      <div class="password">
+        <label for="password">Password:</label>
+        <input autocomplete="off" type="password" id="password" name="password" placeholder="**********" required>
+      </div>
+      <div class="password">
+        <label for="password">Repeat password:</label>
+        <input autocomplete="off" type="password" id="password" name="password" placeholder="**********" required>
+      </div>
+      <button type="submit" class="hover" routerLink="/forum">
+        <span>{{ "header.signup" | translate }}</span>
+      </button>
+    </form>
+  </details>
+</section>
+<div class="wrap">
+  <div class="signal">
+    <section class="content">
+      <div class="info">
+        <h2>
+          {{ "main.1.title" | translate }}
+        </h2>
+        <p>
+          {{ "main.1.text1" | translate }}
+        </p>
+      </div>
+    </section>
+    <section class="content">
+      <a href="https://signal.group/#CjQKII117e9C-AsIsCwvlAJIPFDArUlu5rbP2UMqXvA3edRHEhBkbAUiJ2u3GIKjM5KcvqNC"
+        target="_blank">
+        <div class="news hover">
+          <span>
+            <svg>
+              <use xlink:href="./assets/images/icons/signal.svg#signal" />
+            </svg>
+          </span>
+        </div>
+      </a>
+    </section>
+  </div>
+  <div class="discord">
+    <section class="content">
+      <div class="info">
+        <h2>
+          {{ "main.2.title" | translate }}
+        </h2>
+        <p>
+          {{ "main.2.text1" | translate }}
+        </p>
+      </div>
+    </section>
+    <section class="content">
+      <a href="https://discord.gg/jbeCEshTur" target="_blank">
+        <div class="news hover">
+          <span>
+            <svg>
+              <use xlink:href="./assets/images/icons/discord.svg#discord" />
+            </svg>
+          </span>
+        </div>
+      </a>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+<header>
+  <nav class="navbar">
+    <div class="logo hideMobile">
+      <a [href]="''"><img src="./assets/icons/icon-512x512.png" alt="Logo"></a>
+    </div>
+    <div class="menu">
+      <ul class="nav-links">
+        <li class="hidePC">
+          <a routerLink="/create" routerLinkActive="active">
+            <svg class="icon-type1" viewBox="0 0 24 24">
+              <use xlink:href="./assets/images/icons/header.svg#create" />
+            </svg>
+            <span class="menutext hideMobile">{{ "header.create" | translate }}</span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/forum" routerLinkActive="active">
+            <svg class="icon-type2" viewBox="0 0 24 24">
+              <use xlink:href="./assets/images/icons/header.svg#forum" />
+            </svg>
+            <span class="menutext hideMobile"><strong>{{ "header.forum" | translate }}</strong></span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/gaming" routerLinkActive="active">
+            <svg class="icon-type2" viewBox="0 0 24 24">
+              <use xlink:href="./assets/images/icons/header.svg#gaming" />
+            </svg>
+            <span class="menutext hideMobile"><strong>{{ "header.gaming" | translate }}</strong></span>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/hosting" routerLinkActive="active">
+            <svg class="icon-type2" viewBox="0 0 24 24">
+              <use xlink:href="./assets/images/icons/header.svg#hosting" />
+            </svg>
+            <span class="menutext hideMobile"><strong>{{ "header.hosting" | translate }}</strong></span>
+          </a>
+        </li>
+        <li class="hideMobile">
+          <div class="search-container-pc">
+            <svg viewBox="0 -0.5 25 25">
+              <use xlink:href="./assets/images/icons/header.svg#search" />
+            </svg>
+            <input aria-label="search" list="search" type="text" placeholder="">
+            <datalist id="search">
+              <option *ngFor="let item of items">{{ item.name }}</option>
+              <option *ngFor="let item of items" (click)="onOptionClick(item)">
+                {{ item.name }}
+              </option>
+            </datalist>
+          </div>
+        </li>
+        <li class="hidePC">
+          <a routerLink="/settings" routerLinkActive="active">
+            <svg class="icon-type1" viewBox="0 0 24 24">
+              <use xlink:href="./assets/images/icons/header.svg#account" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <details class="profile hideMobile">
+      <summary class="dropdown-btn">
+        <svg>
+          <use xlink:href="./assets/images/icons/profile.svg#icons" />
+        </svg>
+      </summary>
+      <ul class="dropdown">
+        <li>
+          <p class="hover" routerLink="/settings">
+            <span>{{ "header.settings" | translate }}</span>
+          </p>
+        </li>
+        <li>
+          <p class="hover" (click)="toggleTheme()">
+            <span>{{ "header.theme" | translate }}</span>
+          </p>
+        </li>
+        <li>
+          <p class="hover" routerLink="/login">
+            <span>{{ "header.login" | translate }}</span>
+          </p>
+        </li>
+      </ul>
+    </details>
+  </nav>
+</header>

@@ -1,0 +1,26 @@
+Header set Access-Control-Allow-Origin "*"
+Header set Cross-Origin-Opener-Policy: same-origin
+Header set Cross-Origin-Embedder-Policy: require-corp
+
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.html -f
+    RewriteRule ^(.*)$ $1.html
+
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php
+
+    #RewriteCond %{HTTPS} !=on
+    #RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+    RewriteCond %{HTTP_HOST} ^minecraft\.ignisus\.org$ [NC]
+    RewriteRule ^(.*)$ https://ignisus.org/$1 [L,R=301]
+    
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>

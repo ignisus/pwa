@@ -1,0 +1,129 @@
+{
+  "header": {
+    "create": "Crear",
+    "forum": "Foro",
+    "gaming": "Juegos",
+    "hosting": "Alojamiento",
+    "settings": "Ajustes",
+    "theme": "Tema",
+    "language": "Idioma",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "profile": "Perfil"
+
+  },
+  "policy": {
+    "title": "Política de Privacidad",
+    "date": "Fecha efectiva",
+    "description": "En Ignisus, nos enorgullecemos de ser una plataforma de código abierto, dedicada a mantener la transparencia y fomentar una comunidad colaborativa. Nuestro código, accesible y modificable, refleja nuestro compromiso con la innovación abierta y la mejora continua.",
+    "1": "Información Recopilada",
+    "account": "Cuentas",
+    "accountText": "Son opcionales y se pedirán datos de identificación básicos como un email y una contraseña",
+    "cookies": "Cookies",
+    "cookiesText": "Almacenamos localmente algunos datos como los ajustes, el tema, idioma...",
+    "2": "Uso de la Información",
+    "2text": "Creemos firmemente en el respeto a la privacidad de nuestros usuarios. Nuestro objetivo no es lucrarnos a costa de su privacidad. En lugar de eso, nos esforzamos por ofrecer un servicio seguro y confiable, donde la protección de los datos personales es una prioridad. No recopilamos más información de la necesaria, y lo que recopilamos anónimamente, lo hacemos con el único fin de mejorar la experiencia del usuario y mantener el funcionamiento óptimo de la plataforma.",
+    "3": "Compartir Información con Terceros",
+    "3text": "Las cookies de tercero y el compartir información esta totalmente bloqueado. Este enfoque de respeto y transparencia es el núcleo de nuestra misión. Los usuarios se sumergen en un entorno donde su privacidad es respetada y su voz es valorada. Juntos, estamos construyendo no solo una plataforma, sino una comunidad basada en la confianza y la colaboración abierta.",
+    "4": "Seguridad de los Datos",
+    "4text": "Entendemos la importancia de mantener tus datos seguros y protegidos. Por eso, hemos implementado sistemas de encriptación avanzados para resguardar cada pedazo de información que confías en nosotros. Nuestra prioridad es asegurarnos de que tus datos permanezcan inaccesibles para terceros no autorizados.",
+    "4text2": "En el improbable caso de un ciberataque, queremos que sepas que tomamos medidas proactivas para minimizar cualquier riesgo. No almacenamos datos sensibles que puedan poner en peligro tu seguridad o privacidad. Cada decisión que tomamos en el manejo de datos está guiada por el principio de precaución y protección.",
+    "5": "Derechos de los Usuarios",
+    "5text": "Valoramos la libertad y la autonomía de nuestros usuarios. Creemos firmemente en brindar un espacio donde puedas expresarte, compartir y colaborar libremente. Sin embargo, con esta libertad también viene una importante responsabilidad.",
+    "5text2": "Como usuario de nuestra plataforma, tienes el derecho de utilizar nuestros servicios de acuerdo con tus intereses y necesidades, siempre respetando las leyes de tu país. Eres libre de explorar, interactuar y contribuir a nuestra comunidad de código abierto, pero es crucial recordar que eres completamente responsable de tus acciones y de cualquier contenido que compartas.",
+    "5text3": "Nuestra plataforma actúa como un facilitador para la expresión y el intercambio de ideas, pero no asumimos responsabilidad por las actividades individuales de nuestros usuarios. Cada miembro de nuestra comunidad es responsable de asegurarse de que sus acciones y contribuciones cumplan con las leyes y normativas aplicables.",
+    "6": "Cambios a la Política de Privacidad",
+    "6text": "Si realizamos cambios en nuestra política de privacidad, te informaremos a través de un pop-up la próxima vez que ingreses a nuestra plataforma. Esto garantizará que estés al tanto de las nuevas condiciones y puedas revisarlas y aceptarlas. Mantenerte informado y asegurar tu consentimiento es una prioridad para nosotros.",
+    "7": "Contacto"
+  },
+  "settings": [
+    {
+      "title": "Configuración general"
+    },
+    {
+      "title": "Cuenta social"
+    },
+    {
+      "title": "Términos y condiciones",
+      "text1": "Código fuente",
+      "text2": "Política de Privacidad"
+    }
+  ],
+  "main": [
+    {
+      "title": "La Comunidad Libre",
+      "status": "Estado: En desarrollo...",
+      "text": "Una plataforma social creada por y para la comunidad."
+    },
+    {
+      "title": "Construyendo una comunidad",
+      "text1": "Nuestra comunidad, que se reúne principalmente en Signal, es un testimonio de este concepto."
+    },
+    {
+      "title": "Compartiendo Experiencias",
+      "text1": "En nuestro grupo de Discord, organizamos regularmente sesiones de juego y divertidos eventos."
+    }
+  ],
+  "forum": [
+    {
+      "posts": "Publicaciones",
+      "explore": "Explorar",
+      "following": "Siguiendo"
+    },
+    {
+      "myposts": "Mis publicaciones"
+    }
+  ],
+  "create": [
+    {
+      "post": "Añadir Publicación",
+      "game": "Subir Juego",
+      "host": "Comprar Host"
+    }
+  ],
+  "gaming": [
+    {
+      "all": "Todos",
+      "systems": "Sistemas",
+      "genres": "Géneros",
+      "build": "Construir",
+      "fight": "Luchar",
+      "simulator": "Simulador",
+      "puzzle": "Puzzle",
+      "retro": "Retro",
+      "sort": "Ordenar",
+      "mostplayed": "Más Jugado",
+      "lessplayed": "Menos Jugado"
+    },
+    {
+      "add": "Añadir Juego"
+    }
+  ],
+  "hosting": [
+    {
+      "title": "WebPage + Hosting por un bajo precio",
+      "text1": "Servicios de manera segura & etica impulsado por Ignisus",
+      "add": "Comprar Host"
+    },
+    {
+      "all": "Todos",
+      "services": "Servicios",
+      "jewelry": "Joyería",
+      "clothing": "Ropa",
+      "games": "Juegos",
+      "food": "Comida"
+    }
+  ],
+  "minecraft": [
+    {
+      "title": "Normas",
+      "text1": "No entrar con la cuenta de otra persona",
+      "text2": "Todo tipo de cheto queda prohibido",
+      "text3": "Las máquinas de lag serán removidas",
+      "text4": "No grifear los mapas"
+    },
+    {
+      "text1": "Noticias & eventos en"
+    }
+  ]
+}

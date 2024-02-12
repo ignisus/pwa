@@ -1,5 +1,6 @@
 <div align="center">
-# Move to [GitLab](https://gitlab.com/ignisus/pwa)
+
+  Move to [GitLab](https://gitlab.com/ignisus/pwa)
   
 # Ignisus Progressive Web App
 
